@@ -1,0 +1,21 @@
+a{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    display: inline-block;
+    font-size: 2em;
+    color: #fff;
+    background-color: #2975ef;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px #fff solid;
+    border-radius: 50%;
+    line-height: 50px;
+    transition: all 0.3s;
+}
+
+a:hover {
+    background-color: #fff;
+    color: #2975ef;
+    border: 1px #2975ef solid;
+}

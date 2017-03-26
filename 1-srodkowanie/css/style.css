@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+div{
+    display: inline-block;
+}
+#box-out {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: #f00;
+}
+
+#box-in {
+    top: 25%;
+    left: 25%; 
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: #0f0;
+}
+
+#box-out-2 {
+    width: 400px;
+    height: 400px;
+    background-color: #0f0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#box-in-2 {
+    width: 50%;
+    height: 50%;
+    margin: 0;
+    background-color: #f00;
+}
