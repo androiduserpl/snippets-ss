@@ -1,0 +1,94 @@
+#fountainG{
+	position:relative;
+	width:234px;
+	height:28px;
+	margin:auto;
+}
+
+.fountainG{
+	position:absolute;
+    text-align: center;
+    color: #fff;
+    font-size: 2.5em;
+	top:0;
+	background-color:rgb(0,0,0);
+	width:50px;
+	height:50px;
+	animation-name:bounce_fountainG;	
+	animation-duration:1.5s;	
+	animation-iteration-count:1;	
+	animation-direction:normal;	
+	transform:scale(0.0);	
+	border-radius:19px;
+		
+}
+
+.fountainG:last-child {
+    animation-duration: 1000s;
+}
+
+#fountainG_1{
+	left:0;
+	animation-delay:1s;
+		
+}
+
+#fountainG_2{
+	left:0px;
+	animation-delay:2s;
+		
+}
+
+#fountainG_3{
+	left:0px;
+	animation-delay:3s;
+		
+}
+
+#fountainG_4{
+	left:0px;
+	animation-delay:4s;
+		
+}
+
+#fountainG_5{
+	left:0px;
+	animation-delay:5s;
+		
+}
+
+#fountainG_6{
+	left:0px;
+	animation-delay:6s;
+		
+}
+
+#fountainG_7{
+	left:0px;
+	animation-delay:7s;
+		
+}
+
+#fountainG_8{
+	left:0px;
+	animation-delay:8s;
+/*
+    animation-duration: 100s;
+*/
+		
+}
+
+
+
+@keyframes bounce_fountainG{
+	0%{
+	transform:scale(1);
+		background-color:rgb(0,0,0);
+	}
+
+	100%{
+	transform:scale(.3);
+		background-color:rgb(255,255,255);
+	}
+}
+

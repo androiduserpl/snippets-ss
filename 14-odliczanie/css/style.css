@@ -1,0 +1,94 @@
+
+#countdown {
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    display: inline-block;
+    position: relative;
+}
+
+.countdown {
+    position: absolute;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 400;
+    font-family: 'Playfair Display SC', serif;
+    color: #000;
+    animation-name: count;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    transform: scale(0.0);
+}
+
+/*.countdown:last-child {
+    animation-duration: 9999s;
+}*/
+
+#t-01 {
+    animation-delay: 0s;
+}
+
+#t-02 {
+    animation-delay: 1s;
+}
+
+#t-03 {
+    animation-delay: 2s;
+}
+
+#t-04 {
+    animation-delay: 3s;
+}
+
+#t-05 {
+    animation-delay: 4s;
+}
+
+#t-06 {
+    animation-delay: 5s;
+}
+
+#t-07 {
+    animation-delay: 6s;
+}
+
+#t-08 {
+    animation-delay: 7s;
+}
+
+#t-09 {
+    animation-delay: 8s;
+}
+
+#t-10 {
+    animation-delay: 9s;
+}
+#t-10:after {
+    transform: scale(1)
+}
+#t-11 {
+    animation-name: count;
+    transform: scale(0.0);
+    animation-delay: 10s;
+    animation-iteration-count: infinite;
+    z-index: 1;
+}
+
+@keyframes count {
+    0% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(.2);
+    }
+}
+
+
+@keyframes count-3 {
+    0% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(.3);
+    }
+}
