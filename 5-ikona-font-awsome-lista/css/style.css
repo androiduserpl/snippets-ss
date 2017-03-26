@@ -9,6 +9,7 @@ li {
 }
 
 li:before {
+    margin-right: 20px;
     content: '\f006';
     font-family: 'FontAwesome';
     margin-left: -1em;

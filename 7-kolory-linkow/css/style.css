@@ -1,0 +1,20 @@
+a {
+    display: block;
+    text-decoration: none;
+}
+
+a[href*=".doc"] {
+    color: #0b6a6a;
+}
+
+a[href*=".pdf"] {
+    color: #4b06e5;
+}
+
+a[href*=".rar"] {
+    color: #e211ca;
+}
+
+a[href*=".zip"] {
+    color: #e211ca;
+}

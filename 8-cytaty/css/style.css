@@ -1,0 +1,21 @@
+
+
+q:lang(en) { 
+    color: #00f;
+    quotes: '*' '*'; 
+}
+
+blockquote:lang(en):before { 
+    color: #0f0;
+    content: '*'; 
+}
+
+blockquote:lang(en) { 
+    color: #0f0;
+    content: '*'; 
+}
+
+blockquote:lang(en):after { 
+    color: #0f0;
+    content: '*'; 
+}
